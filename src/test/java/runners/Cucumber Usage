@@ -1,0 +1,19 @@
+Cucumber nasil calisir?
+1. Feature olustur
+2. Feature dosyasinin icini Scenario lar ile doldur
+3. Scenariolarda kullanilan steplerin step definition methodlarini yaz (StepDefinition class)
+4. Calistirmak uzere bir runner hazirla (Eger ki calistirmak icin bir runner mevcutsa gerek yok)
+5. Run tusuna bas ve arkana yaslan
+
+//BDD-> behaviour driven development:davranışsal geliştirme diyebiliriz,cucumber frameworku destekleyen bir test aracıdır
+    //istenen sonuçları üretip üretmediklerinigörmek için farklı senariolar çalıştırarak
+    // yazılımı test etmeye yardımcı bir programdır
+    //cucumber in dili Gherkin dir.
+    //bu dil sayesinde busines ve tecnic language arasında köpru kurmuş oluyoruz
+    //çok fazla dille kullanımı mevcuttur cucumber ın(javascript,c#,c++,java,php,Ruby,Phyton...)
+    //Feature clasda birden çok senario olabilir...
+//scenariolarda bizim test case lerimiz mevcuttur(her bir scenario bir tc dir)
+    //background...(ekran resmine bak)
+    //Scenario Outline:aynı senaryoyu farklı değerlerle kullanmaya yarar.DDTnin cucumber deki karşılığıdır.
+    // DDT dir bunun testNGdeki karşılığı ise dataproviderdır...
+

@@ -1,0 +1,15 @@
+mvn
+
+#terminalde yazıyoruz
+
+mvn test
+# tüm clasları test ediyor
+
+mvn install
+#tekrar düzenliyor
+
+mvn clean
+# target dosyasındakileri tamamen siliyor
+
+mvn clean install
+
